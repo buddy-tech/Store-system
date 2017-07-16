@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EC5BF83-8960-4B34-A36E-793198276DCF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Store_System</RootNamespace>
+    <AssemblyName>Store System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\ClSADDneWpRODUCT.cs" />
+    <Compile Include="BL\CLS_Addpayedmoney_customer.cs" />
+    <Compile Include="BL\CLS_ADD_CAT.cs" />
+    <Compile Include="BL\Cls_ADD_COM.cs" />
+    <Compile Include="BL\Cls_ADD_Customer.cs" />
+    <Compile Include="BL\CLS_allPayedmoney.cs" />
+    <Compile Include="BL\cls_allPRODUCTin_stores.cs" />
+    <Compile Include="BL\CLS_load_allPayedmoneyCustomer.cs" />
+    <Compile Include="BL\CLS_Load_All_Companies.cs" />
+    <Compile Include="BL\CLS_LOGIN.cs" />
+    <Compile Include="BL\CLS_MakeORDER.cs" />
+    <Compile Include="BL\CLS_notification.cs" />
+    <Compile Include="BL\CLS_PhoneNote.cs" />
+    <Compile Include="BL\CLS_showAll_payedmoneyCustomer.cs" />
+    <Compile Include="BL\CLS_Show_save.cs" />
+    <Compile Include="BL\CLS_STORE.cs" />
+    <Compile Include="BL\CLS_LoadAll_customer.cs" />
+    <Compile Include="BL\CSL_load_allORERS.cs" />
+    <Compile Include="PL\FRM_AddNEWUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_AddNEWUser.Designer.cs">
+      <DependentUpon>FRM_AddNEWUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_add_PhoneNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_add_PhoneNote.Designer.cs">
+      <DependentUpon>FRM_add_PhoneNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Allpayedmoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Allpayedmoney.Designer.cs">
+      <DependentUpon>FRM_Allpayedmoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\Form_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form_LOGIN.Designer.cs">
+      <DependentUpon>Form_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\form_MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\form_MAIN.Designer.cs">
+      <DependentUpon>form_MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Frm_ADDNewProudct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Frm_ADDNewProudct.Designer.cs">
+      <DependentUpon>Frm_ADDNewProudct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADDpayedCOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADDpayedCOM.Designer.cs">
+      <DependentUpon>FRM_ADDpayedCOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_CATEGORIES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_CATEGORIES.Designer.cs">
+      <DependentUpon>FRM_ADD_CATEGORIES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_COMPAYE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_COMPAYE.Designer.cs">
+      <DependentUpon>FRM_ADD_COMPAYE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_Customer.Designer.cs">
+      <DependentUpon>FRM_ADD_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_payedmoney_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_payedmoney_Customer.Designer.cs">
+      <DependentUpon>FRM_ADD_payedmoney_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_AllCOM_notyetfinishTheyMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_AllCOM_notyetfinishTheyMoney.Designer.cs">
+      <DependentUpon>FRM_AllCOM_notyetfinishTheyMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_AllCusotmerOrders_notfinish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_AllCusotmerOrders_notfinish.Designer.cs">
+      <DependentUpon>FRM_AllCusotmerOrders_notfinish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ALLPhoneNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ALLPhoneNote.Designer.cs">
+      <DependentUpon>FRM_ALLPhoneNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_AllProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_AllProducts.Designer.cs">
+      <DependentUpon>FRM_AllProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_AllProduct_IN_sALLSTORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_AllProduct_IN_sALLSTORES.Designer.cs">
+      <DependentUpon>frm_AllProduct_IN_sALLSTORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ALL_CAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ALL_CAT.Designer.cs">
+      <DependentUpon>FRM_ALL_CAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Backup.Designer.cs">
+      <DependentUpon>FRM_Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_COM_Makeorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_COM_Makeorder.Designer.cs">
+      <DependentUpon>FRM_COM_Makeorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_MAKEORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_MAKEORDER.Designer.cs">
+      <DependentUpon>FRM_MAKEORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_MANG_PAYEDmoney_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_MANG_PAYEDmoney_customer.Designer.cs">
+      <DependentUpon>FRM_MANG_PAYEDmoney_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Notification.Designer.cs">
+      <DependentUpon>FRM_Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_paymoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_paymoney.Designer.cs">
+      <DependentUpon>FRM_paymoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_RetriveBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_RetriveBackup.Designer.cs">
+      <DependentUpon>FRM_RetriveBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_RetriveCOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_RetriveCOM.Designer.cs">
+      <DependentUpon>FRM_RetriveCOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_RetriveP_INOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_RetriveP_INOrder.Designer.cs">
+      <DependentUpon>FRM_RetriveP_INOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_savemoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_savemoney.Designer.cs">
+      <DependentUpon>FRM_savemoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ShowAllpayedmoney_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ShowAllpayedmoney_customer.Designer.cs">
+      <DependentUpon>FRM_ShowAllpayedmoney_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_showallpayedmony_company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_showallpayedmony_company.Designer.cs">
+      <DependentUpon>FRM_showallpayedmony_company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ShowAllUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ShowAllUsers.Designer.cs">
+      <DependentUpon>FRM_ShowAllUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_SinALL_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_SinALL_Orders.Designer.cs">
+      <DependentUpon>FRM_SinALL_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Sin_COMorders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Sin_COMorders.Designer.cs">
+      <DependentUpon>FRM_Sin_COMorders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_STOREm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_STOREm.Designer.cs">
+      <DependentUpon>FRM_STOREm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\mAINFRM_Companies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\mAINFRM_Companies.Designer.cs">
+      <DependentUpon>mAINFRM_Companies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\MANG_FRM_customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MANG_FRM_customers.Designer.cs">
+      <DependentUpon>MANG_FRM_customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPT\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PL\FRM_AddNEWUser.resx">
+      <DependentUpon>FRM_AddNEWUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_add_PhoneNote.resx">
+      <DependentUpon>FRM_add_PhoneNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Allpayedmoney.resx">
+      <DependentUpon>FRM_Allpayedmoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form_LOGIN.resx">
+      <DependentUpon>Form_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\form_MAIN.ar.resx">
+      <DependentUpon>form_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\form_MAIN.resx">
+      <DependentUpon>form_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Frm_ADDNewProudct.resx">
+      <DependentUpon>Frm_ADDNewProudct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADDpayedCOM.resx">
+      <DependentUpon>FRM_ADDpayedCOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_CATEGORIES.resx">
+      <DependentUpon>FRM_ADD_CATEGORIES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_COMPAYE.resx">
+      <DependentUpon>FRM_ADD_COMPAYE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_Customer.resx">
+      <DependentUpon>FRM_ADD_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_payedmoney_Customer.resx">
+      <DependentUpon>FRM_ADD_payedmoney_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_AllCOM_notyetfinishTheyMoney.resx">
+      <DependentUpon>FRM_AllCOM_notyetfinishTheyMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_AllCusotmerOrders_notfinish.resx">
+      <DependentUpon>FRM_AllCusotmerOrders_notfinish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ALLPhoneNote.resx">
+      <DependentUpon>FRM_ALLPhoneNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_AllProducts.resx">
+      <DependentUpon>FRM_AllProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_AllProduct_IN_sALLSTORES.resx">
+      <DependentUpon>frm_AllProduct_IN_sALLSTORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ALL_CAT.resx">
+      <DependentUpon>FRM_ALL_CAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Backup.resx">
+      <DependentUpon>FRM_Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_COM_Makeorder.resx">
+      <DependentUpon>FRM_COM_Makeorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_MAKEORDER.resx">
+      <DependentUpon>FRM_MAKEORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_MANG_PAYEDmoney_customer.resx">
+      <DependentUpon>FRM_MANG_PAYEDmoney_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Notification.resx">
+      <DependentUpon>FRM_Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_paymoney.resx">
+      <DependentUpon>FRM_paymoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_RetriveBackup.resx">
+      <DependentUpon>FRM_RetriveBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_RetriveCOM.resx">
+      <DependentUpon>FRM_RetriveCOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_RetriveP_INOrder.resx">
+      <DependentUpon>FRM_RetriveP_INOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_savemoney.resx">
+      <DependentUpon>FRM_savemoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ShowAllpayedmoney_customer.resx">
+      <DependentUpon>FRM_ShowAllpayedmoney_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_showallpayedmony_company.resx">
+      <DependentUpon>FRM_showallpayedmony_company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ShowAllUsers.resx">
+      <DependentUpon>FRM_ShowAllUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_SinALL_Orders.resx">
+      <DependentUpon>FRM_SinALL_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Sin_COMorders.resx">
+      <DependentUpon>FRM_Sin_COMorders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_STOREm.resx">
+      <DependentUpon>FRM_STOREm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\mAINFRM_Companies.resx">
+      <DependentUpon>mAINFRM_Companies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\MANG_FRM_customers.resx">
+      <DependentUpon>MANG_FRM_customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RPT\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

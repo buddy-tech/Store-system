@@ -1,0 +1,68 @@
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\bin\Debug\Store System.exe.config
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store System.csprojResolveAssemblyReference.cache
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.Form_LOGIN.resources
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.Properties.Resources.resources
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store System.csproj.GenerateResource.Cache
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\bin\Debug\Store System.exe
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\bin\Debug\Store System.pdb
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store System.exe
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store System.pdb
+c:\users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.form_MAIN.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.Frm_ADDNewProudct.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.FRM_STOREm.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.FRMSALES_IN_PERIOD.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.FRM_MAKEORDER.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.mAINFRM_CUSTOMER.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.FRM_ADD_CATEGORIES.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.FRM_ALL_CAT.resources
+C:\Users\mostafa\documents\visual studio 2013\Projects\Store System\Store System\obj\Debug\Store_System.PL.frm_AllProduct_IN_sALLSTORES.resources
+F:\Store System\Store System\obj\Debug\Store System.exe
+F:\Store System\Store System\obj\Debug\Store System.pdb
+F:\Store System\Store System\bin\Debug\Store System.exe
+F:\Store System\Store System\bin\Debug\Store System.pdb
+F:\Store System\Store System\obj\Debug\Store System.csprojResolveAssemblyReference.cache
+F:\Store System\Store System\obj\Debug\Store_System.PL.Form_LOGIN.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.form_MAIN.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.Frm_ADDNewProudct.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ADD_CATEGORIES.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.frm_AllProduct_IN_sALLSTORES.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ALL_CAT.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_MAKEORDER.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_STOREm.resources
+F:\Store System\Store System\obj\Debug\Store_System.Properties.Resources.resources
+F:\Store System\Store System\obj\Debug\Store System.csproj.GenerateResource.Cache
+F:\Store System\Store System\bin\Debug\ar\Store System.resources.dll
+F:\Store System\Store System\obj\Debug\Store_System.PL.form_MAIN.ar.resources
+F:\Store System\Store System\obj\Debug\ar\Store System.resources.dll
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ADD_Customer.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.mAINFRM_Companies.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.MANG_FRM_customers.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ADD_COMPAYE.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_RetriveP_INOrder.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_SinALL_Orders.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_COM_Makeorder.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ADD_payedmoney_Customer.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_RetriveCOM.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_MANG_PAYEDmoney_customer.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ADDpayedCOM.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ShowAllpayedmoney_customer.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_showallpayedmony_company.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_savemoney.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_AllCusotmerOrders_notfinish.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_AllCOM_notyetfinishTheyMoney.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_paymoney.resources
+F:\Store System\Store System\obj\Debug\Store_System.BL.FRM_Allpayedmoney.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_Notification.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_add_PhoneNote.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ALLPhoneNote.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_Backup.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_AddNEWUser.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_RetriveBackup.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_ShowAllUsers.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_AllProducts.resources
+F:\Store System\Store System\obj\Debug\Store_System.PL.FRM_Sin_COMorders.resources
+F:\Store System\Store System\obj\Debug\Store_System.RPT.Form1.resources
+E:\Store System\Store System\obj\Debug\Store System.exe
+E:\Store System\Store System\obj\Debug\Store System.pdb
+D:\Store System\Store System\obj\Debug\Store System.exe
+D:\Store System\Store System\obj\Debug\Store System.pdb
